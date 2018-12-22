@@ -1,5 +1,7 @@
 package fiboDemo;
 
+import org.junit.Assert;
+
 public class TofayelVaiP {
     public static void main(String[] args) {
         int porernumber=0;
@@ -9,6 +11,10 @@ public class TofayelVaiP {
             porernumber=agernumber+porernumber;
             agernumber=porernumber-agernumber;
             System.out.println(porernumber);
+
+            Assert.assertArrayEquals();
+
+            //m;d,f;lhafiz
         }
     }
 }
